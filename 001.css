@@ -1,0 +1,47 @@
+/*based on subscriptions page*/
+.grid-subheader.ytd-shelf-renderer, #contents.ytd-shelf-renderer {
+	margin-top: 1em;
+}
+ytd-expanded-shelf-contents-renderer {
+	margin-bottom: 1em;
+}
+ytd-thumbnail.ytd-video-renderer {
+	width: 200px;
+	height: auto;
+	min-height: 112px;
+}
+#title-container h2.ytd-shelf-renderer{
+	font-size: 0px !important;
+}
+#contents.ytd-section-list-renderer > .ytd-section-list-renderer:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+}
+
+/* 2017 dark theme adjustmets start */
+/* top bar is always dark */
+#country-code,
+yt-icon.style-scope.ytd-button-renderer,
+yt-icon.style-scope.ytd-topbar-menu-button-renderer,
+yt-icon.style-scope.ytd-notification-topbar-button-renderer{
+	color:#666 !important;
+}
+/* top bar is always dark */
+yt-icon.style-scope.ytd-masthead,
+yt-icon#logo-icon{
+	opacity:.5;
+}
+/* more compact playlist headings */
+H3.style-scope.ytd-playlist-panel-renderer,
+H3.style-scope.ytd-playlist-panel-renderer *,
+#publisher-container.ytd-playlist-panel-renderer,
+#publisher-container.ytd-playlist-panel-renderer *,
+#top-level-buttons:not(#tooltip), #top-level-buttons *:not(#tooltip),
+#playlist-actions.ytd-playlist-panel-renderer:not(#tooltip),
+#playlist-actions.ytd-playlist-panel-renderer *:not(#tooltip){
+	display:inline !important;
+}
+H3.style-scope.ytd-playlist-panel-renderer,
+#publisher-container{
+	margin-right:1em;
+}
+/* 2017 dark theme adjustmets end */
