@@ -30,6 +30,14 @@ yt-icon.style-scope.ytd-masthead,
 yt-icon#logo-icon{
 	opacity:.5;
 }
+/* top bar */
+#container.ytd-masthead{
+	height:auto;
+}
+/* rest of page */
+#page-manager.ytd-app{
+	margin-top:0;
+}
 /* more compact playlist headings */
 H3.style-scope.ytd-playlist-panel-renderer,
 H3.style-scope.ytd-playlist-panel-renderer *,
@@ -43,5 +51,9 @@ H3.style-scope.ytd-playlist-panel-renderer *,
 H3.style-scope.ytd-playlist-panel-renderer,
 #publisher-container{
 	margin-right:1em;
+}
+/* video title */
+ytd-video-primary-info-renderer.style-scope.ytd-watch{
+	padding-top:0;
 }
 /* 2017 dark theme adjustmets end */
