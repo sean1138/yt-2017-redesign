@@ -17,7 +17,7 @@ ytd-thumbnail.ytd-video-renderer {
 	border-bottom: 1px solid #CCC;
 }
 
-/* 2017 dark theme adjustmets start */
+/* 2017 theme adjustmets start */
 /* top bar is always dark */
 #country-code,
 yt-icon.style-scope.ytd-button-renderer,
@@ -64,4 +64,4 @@ ytd-sentiment-bar-renderer#sentiment{
 ytd-watch[theater] #player.ytd-watch{
   margin-top:40px;
 }
-/* 2017 dark theme adjustmets end */
+/* 2017 theme adjustmets end */
