@@ -1,5 +1,7 @@
 /*based on subscriptions page*/
-.grid-subheader.ytd-shelf-renderer, #contents.ytd-shelf-renderer {
+
+.grid-subheader.ytd-shelf-renderer,
+#contents.ytd-shelf-renderer {
 	margin-top: 1em;
 }
 ytd-expanded-shelf-contents-renderer {
@@ -10,58 +12,70 @@ ytd-thumbnail.ytd-video-renderer {
 	height: auto;
 	min-height: 112px;
 }
-#title-container h2.ytd-shelf-renderer{
+#title-container h2.ytd-shelf-renderer {
 	font-size: 0px !important;
 }
 #contents.ytd-section-list-renderer > .ytd-section-list-renderer:not(:last-child) {
 	border-bottom: 1px solid #CCC;
 }
-
 /* 2017 theme adjustmets start */
+/* made with theater mode activated */
 /* top bar is always dark */
+
 #country-code,
 yt-icon.style-scope.ytd-button-renderer,
 yt-icon.style-scope.ytd-topbar-menu-button-renderer,
-yt-icon.style-scope.ytd-notification-topbar-button-renderer{
-	color:#666 !important;
+yt-icon.style-scope.ytd-notification-topbar-button-renderer {
+	color: #666 !important;
 }
 /* top bar is always dark */
+
 yt-icon.style-scope.ytd-masthead,
-yt-icon#logo-icon{
-	opacity:.5;
+yt-icon#logo-icon {
+	opacity: .5;
 }
 /* top bar */
-#container.ytd-masthead{
-	height:auto;
+
+#container.ytd-masthead {
+	height: auto;
 }
 /* rest of page */
-#page-manager.ytd-app{
-	margin-top:0;
+
+#page-manager.ytd-app {
+	margin-top: 0;
 }
 /* more compact playlist headings */
+
 H3.style-scope.ytd-playlist-panel-renderer,
 H3.style-scope.ytd-playlist-panel-renderer *,
 #publisher-container.ytd-playlist-panel-renderer,
 #publisher-container.ytd-playlist-panel-renderer *,
-#top-level-buttons:not(#tooltip), #top-level-buttons *:not(#tooltip),
+#top-level-buttons:not(#tooltip),
+#top-level-buttons *:not(#tooltip),
 #playlist-actions.ytd-playlist-panel-renderer:not(#tooltip),
-#playlist-actions.ytd-playlist-panel-renderer *:not(#tooltip){
-	display:inline !important;
+#playlist-actions.ytd-playlist-panel-renderer *:not(#tooltip) {
+	display: inline !important;
 }
 H3.style-scope.ytd-playlist-panel-renderer,
-#publisher-container{
-	margin-right:1em;
+#publisher-container {
+	margin-right: 1em;
 }
 /* video title */
-ytd-video-primary-info-renderer.style-scope.ytd-watch{
-	padding-top:0;
+
+ytd-video-primary-info-renderer.style-scope.ytd-watch {
+	padding-top: 0;
 }
 /* like bar */
-ytd-sentiment-bar-renderer#sentiment{
-    width:100% !important;
+
+ytd-sentiment-bar-renderer {
+	background-color: red;
+}
+ytd-sentiment-bar-renderer#sentiment {
+	width: 100% !important;
 }
 /* top of video hidden behind top nav bar */
-ytd-watch[theater] #player.ytd-watch{
-  margin-top:40px;
+
+ytd-watch[theater] #player.ytd-watch {
+	margin-top: 40px;
 }
 /* 2017 theme adjustmets end */
