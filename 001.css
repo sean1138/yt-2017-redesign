@@ -56,4 +56,7 @@ H3.style-scope.ytd-playlist-panel-renderer,
 ytd-video-primary-info-renderer.style-scope.ytd-watch{
 	padding-top:0;
 }
+ytd-sentiment-bar-renderer#sentiment{
+    width:100% !important;
+}
 /* 2017 dark theme adjustmets end */
