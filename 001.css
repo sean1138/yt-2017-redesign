@@ -60,4 +60,8 @@ ytd-video-primary-info-renderer.style-scope.ytd-watch{
 ytd-sentiment-bar-renderer#sentiment{
     width:100% !important;
 }
+/* top of video hidden behind top nav bar */
+ytd-watch[theater] #player.ytd-watch{
+  margin-top:40px;
+}
 /* 2017 dark theme adjustmets end */
