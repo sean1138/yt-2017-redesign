@@ -44,7 +44,7 @@ yt-icon#logo-icon {
 ytd-watch {
 	margin-top: -40px;
 }
-#content {
+#content.style-scope.ytd-app {
 	margin-top: -16px;
 }
 #background,
