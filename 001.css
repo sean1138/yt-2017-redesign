@@ -1,5 +1,9 @@
-/*suggestion card thing*/
+/*suggestion card thing lower left*/
 .annotation.annotation-type-custom.iv-promo.iv-promo-video{
+	display:none;
+}
+/*i icon upper right*/
+.ytp-chrome-top-buttons{
 	display:none;
 }
 /*video time*/
