@@ -1,3 +1,11 @@
+/*suggestion card thing*/
+.annotation.annotation-type-custom.iv-promo.iv-promo-video{
+	display:none;
+}
+/*video time*/
+.ytp-time-display.notranslate{
+	font-size:16px;
+}
 /*based on subscriptions page*/
 
 .grid-subheader.ytd-shelf-renderer,
