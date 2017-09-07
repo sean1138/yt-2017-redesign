@@ -1,0 +1,15 @@
+/* player size adjustments - optimized for F11 on 1280x800 screen */
+
+ytd-watch[theater] #player.ytd-watch {
+	box-sizing: border-box;
+	width: 100%;
+	height: calc((9/16)*100vw);
+	max-height: calc(100vh - 100px);
+	/* min-height: var(--flex854-mode-player-height); */
+}
+.html5-video-container video.video-stream.html5-main-video {
+	width: 98% !important;
+	height: auto !important;
+	left: 1%;
+	/* top: 0px; */
+}
