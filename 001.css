@@ -40,11 +40,19 @@ yt-icon.style-scope.ytd-topbar-menu-button-renderer,
 yt-icon.style-scope.ytd-notification-topbar-button-renderer {
 	color: #666 !important;
 }
-/* top bar is always dark */
-
 yt-icon.style-scope.ytd-masthead,
 yt-icon#logo-icon {
 	opacity: .5;
+}
+#search-form,
+ytd-searchbox[mode="legacy"] #container.ytd-searchbox,
+input#search,
+#search-icon-legacy.ytd-searchbox,
+#search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox{
+	background-color:#222;
+	color:#CCC !important;
+	border-color:#666;
+	box-shadow:none;
 }
 /* top bar */
 
