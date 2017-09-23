@@ -102,6 +102,7 @@ ytd-toggle-button-renderer #button.ytd-toggle-button-renderer[aria-label^="disli
 /* like bar */
 ytd-sentiment-bar-renderer {
 	background-color: red;
+	padding:0;
 }
 ytd-sentiment-bar-renderer#sentiment {
 	width: 100% !important;
